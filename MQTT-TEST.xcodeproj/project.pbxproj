@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2A422BF96238E6647957DD5A /* Pods_MQTT_TESTTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0B771415E31B29A1FC592D /* Pods_MQTT_TESTTests.framework */; };
+		3079724D259521FD006D434B /* MQTT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3079724C259521FD006D434B /* MQTT.swift */; };
 		30D8F7C3258E653700411E31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D8F7C2258E653700411E31 /* AppDelegate.swift */; };
 		30D8F7C7258E653700411E31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D8F7C6258E653700411E31 /* ViewController.swift */; };
 		30D8F7CA258E653700411E31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D8F7C8258E653700411E31 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 		0F0B771415E31B29A1FC592D /* Pods_MQTT_TESTTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MQTT_TESTTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1286350DB9404C4C70823FB9 /* Pods-MQTT-TEST.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MQTT-TEST.release.xcconfig"; path = "Target Support Files/Pods-MQTT-TEST/Pods-MQTT-TEST.release.xcconfig"; sourceTree = "<group>"; };
 		132E80A0B88E72A14D1FD569 /* Pods_MQTT_TEST_MQTT_TESTUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MQTT_TEST_MQTT_TESTUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3079724C259521FD006D434B /* MQTT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQTT.swift; sourceTree = "<group>"; };
 		30D8F7BF258E653700411E31 /* MQTT-TEST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MQTT-TEST.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30D8F7C2258E653700411E31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30D8F7C6258E653700411E31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 			children = (
 				30D8F7C2258E653700411E31 /* AppDelegate.swift */,
 				30D8F7C6258E653700411E31 /* ViewController.swift */,
+				3079724C259521FD006D434B /* MQTT.swift */,
 				30D8F7C8258E653700411E31 /* Main.storyboard */,
 				30D8F7CB258E653900411E31 /* Assets.xcassets */,
 				30D8F7CD258E653900411E31 /* LaunchScreen.storyboard */,
@@ -403,6 +406,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3079724D259521FD006D434B /* MQTT.swift in Sources */,
 				30D8F7C7258E653700411E31 /* ViewController.swift in Sources */,
 				30D8F7C3258E653700411E31 /* AppDelegate.swift in Sources */,
 			);

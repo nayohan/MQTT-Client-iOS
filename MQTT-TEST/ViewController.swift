@@ -9,23 +9,11 @@ import UIKit
 import CocoaMQTT
 
 class ViewController: UIViewController{
-
-    let defaultHost = "nuda.iptime.org"
-    var mqtt: CocoaMQTT?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        mqttInit()
     }
-    func mqttInit() {
-        let clientID = "CocoaMQTT-" + String(ProcessInfo().processIdentifier)
-        mqtt = CocoaMQTT(clientID: clientID, host: defaultHost, port: 1883)
-        mqtt!.username = ""
-        mqtt!.password = ""
-        mqtt!.willMessage = CocoaMQTTMessage(topic: "/will", string: "dieout")
-        mqtt!.keepAlive = 60
-        mqtt!.delegate = self
-    }
+    var mqtt = MQTT.shared.mqtt
     
     @IBOutlet var labelReceived: UILabel!
     @IBOutlet var labelLog: UILabel!
